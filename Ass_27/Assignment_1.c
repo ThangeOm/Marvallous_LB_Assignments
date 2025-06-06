@@ -3,12 +3,7 @@
 void StrCpyX(char *src, char *dest)
 {
     // Filter 
-    if (src == NULL || *src == '\0')
-    {
-        *dest = '\0';
 
-        return; 
-    }
     while (*src != '\0')
     {
        *dest = *src;
