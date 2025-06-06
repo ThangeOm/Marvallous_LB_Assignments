@@ -2,10 +2,6 @@
 
 void StrCatX(char *src, char *dest)
 {
-    if (src == NULL || dest == NULL)
-    {
-        return; 
-    }
 
     while (*dest != '\0')
     {
