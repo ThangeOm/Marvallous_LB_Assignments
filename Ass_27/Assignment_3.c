@@ -3,11 +3,7 @@
 void StrCpyCap(char *src, char *dest)
 {
     // Filter 
-    if (src == NULL || dest == NULL)
-    {
-        return; 
-    }
-
+    
     while (*src != '\0')
     {
       if(*src >= 'A' && (*src <= 'Z'))
