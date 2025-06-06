@@ -2,12 +2,7 @@
 
 void StrNCpyX(char *src, char *dest,int iCnt)
 {
-    // Filter 
-    if (src == NULL || dest == NULL)
-    {
-        return; 
-    }
-
+    // Filter
     while (*src != '\0'&& (iCnt > 0))
     {
        *dest = *src;
