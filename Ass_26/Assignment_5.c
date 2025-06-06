@@ -30,8 +30,7 @@ int main()
 
     printf("Enter string :");
     scanf("%[^'\n]s",arr);
-    getchar();
-
+    
     StrRevX(arr);
 
     printf("Modified string is %s",arr);
