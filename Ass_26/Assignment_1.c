@@ -31,8 +31,6 @@ int main()
 
     printf("Enter string :");
     scanf("%[^'\n]s",arr);
-    getchar(); // 
-
 
     printf("Enter the character: ");
     scanf("%c",&cValue);
